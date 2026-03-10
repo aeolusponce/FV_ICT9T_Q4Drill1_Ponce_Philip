@@ -8,7 +8,7 @@
 <body>
     <h1>JavaScript Conditional Statements</h1>
 
-    <input type="text" class="form-control" id="Age" placeholder="Type here...">
+    <input type="text" class="form-control" id="kWh" placeholder="Type here...">
     <button class="btn btn-info" onclick="checkAge()">Check</button>
 
     <script>
@@ -16,7 +16,7 @@
         var Age = document.getElementById("Age").value;
         let cat1 = "Lifeline Consumer";
 
-            if (isNAN(kWh) || kWh < 0) {
+            if (isNaN(kWh) || kWh < 0) {
                 alert("Please input a valid number.");
             }
             else if(kWh <= 100){
