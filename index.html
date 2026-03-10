@@ -14,18 +14,28 @@
     <script>
         function checkAge(){
         var Age = document.getElementById("Age").value;
+        let cat1 = "Lifeline Consumer";
 
-            if (isNAN(Age) || Age < 0) {
+            if (isNAN(kWh) || kWh < 0) {
                 alert("Please input a valid number.");
             }
-            else if(Age<18){
-                alert("You are underage.");
+            else if(kWh <= 100){
+                alert("A + You have a discounted rate.");
             }
-            else if(Age>18){
-                alert("You are of legal age.");
+            else if(kWh <= 100){
+                alert("A + You have a discounted rate.");
+            }
+            else if(kWh <= 100){
+                alert("A + You have a discounted rate.");
+            }
+            else if(kWh <= 100){
+                alert("A + You have a discounted rate.");
+            }
+            else if(kWh <= 100){
+                alert("A + You have a discounted rate.");
             }
             else{
-                alert("Age could not be classified.");
+                alert("kWh is above 500.");
             }
     }
     </script>
